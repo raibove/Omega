@@ -1,0 +1,177 @@
+
+*,*::before,*::after{
+  	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0;
+	margin: 0;
+}
+html,body{
+	height:100%;
+}
+.header{
+		position: fixed;
+		width: 100%;
+		height: auto;
+		 z-index:1000 ;
+	}
+.title{
+	font-weight:700;
+	font-size: 30px;
+	padding:10px;
+	color: white;
+	background: black;
+	width: 100%;
+}
+.menu{
+	background-color: black;
+	list-style-type: none;
+	display: none;/*flex;*/
+	flex-direction: column;
+	text-align: center;
+	margin: auto;
+	padding:70px;
+	font-weight:700;
+	font-size:25px;
+	height: 100vh;
+}
+.menu li{
+	padding:18px;
+}
+.menu li a{
+	color: white;	
+	text-decoration: none;
+}
+
+.menu .active a{
+	color: #1aff24;/*#56e25b;*/
+}
+.menu a:hover{
+	color:  #4caf50;
+}
+
+.menu-icons{
+	background-color: white;
+	top:0;
+	right: 0;
+	position: absolute;
+	width: 10vw;
+	height: 5vh;
+	font-size: 25px;
+	float: right;
+	margin: 9px;
+}
+
+.menu.toggle{
+	display: flex;
+}
+
+
+footer{
+	background-color: black;
+	color:white;
+}
+.footer-content{
+	padding:15px;
+}
+.footer-left{
+	font-size:22px;
+}
+.footer-left i{
+	font-size: 28px;
+}
+.footer-left span{
+	padding: 18px 0;
+}
+.footer-right{
+	padding:15px 5px;
+}
+.footer-right h1{
+	padding:7px 0;
+	font-size: 30px;
+	font-family: sans-serif;
+	line-height: 28px;
+}
+.footer-right p{
+	line-height:25px;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.address{
+	display: flex; 	
+}
+.map{
+	top:50%;
+	padding-top: 38px;
+}
+.footer-bottom{
+	bottom: 0;
+	height: 50px;
+	background-color: #303036;
+	color:#d3d3d3;
+	padding:12px 3px;
+	width: 100%;
+}
+
+@media only screen and (min-width:750px){
+	.title{
+		font-size: 28px;	
+		font-weight: 1100;
+	}
+	.menu{
+		display: flex;
+		flex-direction: row;
+		top: 0;
+		position: absolute;
+		right: 0;
+		padding: 0;
+		float:right;
+		height: auto;
+	}
+	.menu-icons{
+		display: none;
+	}
+	.menu li{
+		padding: 9px;
+	}
+	.footer-content{
+		display: grid;grid-gap: 10px;
+		grid-auto-rows:minmax(100px,auto);
+		grid-template-columns: repeat(2,1fr);
+	}
+	.footer-left{
+		grid-row: 1;
+		grid-column: 1;
+	}
+	.footer-right{
+		grid-column: 2;
+		grid-row: 1; 
+	}
+
+}
+@media only screen and (min-width:1000px){
+		.title{
+		font-size: 30px;	
+	}
+	.menu{
+		font-weight: 1000;
+		font-size: 28px;
+	}
+	.menu li{
+		padding:9px 13px;
+	}
+	.footer-content{
+		padding:28px;
+	}
+	.footer-right p{
+	line-height:24px;
+	font-size: 22px;
+	}
+	.footer-right h1{
+		padding-bottom: 20px;
+		font-size:32px;
+		line-height: 35px;
+	}
+	
+
+}
