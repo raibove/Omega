@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>OmegaEnterprises</title>
-		<link rel="stylesheet" type="text/css" href="menu.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-		<script type="text/javascript" src="about.js"></script>
-		<link rel="stylesheet" type="text/css" href="about.css">
-		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Slab&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div class="header">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Omega Enterprises</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway:ital,wght@1,300&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="header">
 		<header>
 			<div class="title">Omega Enterprises</div>
 			<nav class="navigation">
 				<ul class="menu">
-					<li>
-						<a href="index.html" class="menuopt">Home</a>
+					<li class="active">
+						<a href="#" class="menuopt">Home</a>
 					</li>
-					<li  class="active">
-						<a href="#" class="menuopt">About Us</a>
+					<li>
+						<a href="about.html" class="menuopt">About Us</a>
 					</li>
 					<li>
 						<a href="contact.html" class="menuopt">Contact Us</a>
@@ -29,58 +29,118 @@
 			</nav>
 				<button  href="javascript:void(0)" class="menu-icons"><i class="fa fa-bars"></i></button>
 		</header>
+	</div>
+	<div class="landing">
+		<p class="landing-content">We Design, With Care.</p>
 	</div><!-- End of Landing page -->
-		<div style="  position: relative; text-align: center;">
-			<img class="about-image" src="img\about.jpg">
-			<h1 class="about-title">About Us</h1>
+	<div class="welcome">
+		<h1>Omega Enterprises welcomes you to the world of Kitchen furniture and Home interior. We provide a wide range of products that suit the divergent need of our clients and make your home complete.</h1>
+	</div>
+	<div class="works">
+		<h1>How it Works</h1>
+		<div class="work-list">
+			<div class="design">
+				<span class="circle circle-design"><i class="fas fa-pencil-ruler"></i></span>
+				<h2 class="work-heading">Design</h2>
+				<p class="work-info">We visit the site and take the measurements. Designs are then made and chosen by clients.</p>
+			</div>
+			<div class="manufacture">
+				<span class="circle circle-manufacture"><i class="fas fa-industry"></i></span>
+				<h2 class="work-heading">Manufacture</h2>
+				<p class="work-info">After the selection of materials, we manufacture the product using imported machinery at our company.</p>
+			</div>
+			<div class="assemble">
+				<span class="circle circle-assemble"><i class="fas fa-tools"></i></span>
+				<h2 class="work-heading">Assemble</h2>
+				<p class="work-info">Installation and all the fitting work is done after manufacturing to get a properly finished product.</p>
+			</div>
 		</div>
-		<div class="about-content">
+	</div>
+		<div class="categories">
+			<h1>	Explore our Products</h1>
 			<div>
-				<h2 class="about-heading">Who We Are</h2>
-				<p class="about-info">Based in <span style="font-weight: bold;">Pune, India</span>. We are a team that works together to design, manufacture and supply a wide range of products. The products include Modular Kitchen, Kitchen Accessories, Home & Office Furniture.</p>
-			</div>
-			<div>
-				<h2 class="about-heading">What We Do</h2>
-				<p class="about-info">We fully understand the need of our customers. In today's world, everyone has their own choice of designs according to their comfort, lifestyle and preferences. We accept orders from Dealers, Interior Designers, Architects, and projects. </p>
-			</div>
-			<img src="img\about7.jpg" class="about2-image">
-			<div>
-				<p class="about-info">After designing the product we select appropriate high-quality material and manufacture it at the workshop. Our products are used in Homes, Offices, Restaurants and Hotels. Therefore at our company, we work on designs that are Modern, Durable and customizable.</p>
-			</div>
-			<div>
-				<h2 class="about-heading">How We make it possible</h2>
-				<p class="about-info">To start with the work we first visit the site and take the measurements. Then, with the use of modern software, we design the product that keeps your space, budget and storage needs in mind. Later we use our machinery to manufacture the product.	</p>
-			</div>
-			<div>
-				<h2 class="about-heading">Machinery we use</h2>
-					<ul class="about-info machine">
-						<li>Cutting Machine : MODEL - Lazzari TESI-25 (Italy)</li>
-						<li>Cutting Machine : MODEL - MARTIN T60 (Germany)</li>
-						<li>Automatic Edge Banding Machine : MODEL -BRANDT KDN-210 (Germany)</li>
-						<li>Automatic Edge Banding Machine : MODEL -BRANDT AMBITION 1440 FC (Germany)</li>
-						<li>Boring (Driling) Machine : MODEL - Maggi (Italy)</li>
-					</ul>
-			</div>
-			<div>
+				<h2 class="category-title">Modular Kitchen</h2>
 				<div class="slideshow-container">
-					<img class="slides" src="img\machine_1.jpg">
-					<img class="slides" src="img\machine_2.jfif">
-					<img class="slides" src="img\machine_3.jfif">
-					<img class="slides" src="img\machine_4.jfif">
-					<img class="slides" src="img\machine_5.jfif">
-					<a class="prev" onclick="plusSlides(-1)"><i class= "fas fa-chevron-left"></i></a>
-					<a class="next" onclick="plusSlides(1)"><i class= "fas fa-chevron-right"></i></a>
+					<img class="slides1" src="img\modular_1.jpg">
+					<img class="slides1" src="img\modular_2.jpg">
+					<img class="slides1" src="img\modular_3.jpg">
+					<img class="slides1" src="img\modular_4.jpg">
+					<img class="slides1" src="img\modular_5.jpg">
+					<a class="prev" onclick="plusSlides(-1,0)"><i class= "fas fa-chevron-left"></i></a>
+					<a class="next" onclick="plusSlides(1,0)"><i class= "fas fa-chevron-right"></i></a>
 				</div>
 				<div style="text-align: center;">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
-					<span class="dot" onclick="currentSlide(3)"></span>
-					<span class="dot" onclick="currentSlide(4)"></span>
-					<span class="dot" onclick="currentSlide(5)"></span>
+					<span class="dot1" onclick="currentSlide(1,0)"></span>
+					<span class="dot1" onclick="currentSlide(2,0)"></span>
+					<span class="dot1" onclick="currentSlide(3,0)"></span>
+					<span class="dot1" onclick="currentSlide(4,0)"></span>
+					<span class="dot1" onclick="currentSlide(5,0)"></span>
 				</div>
-			</div><!-- End of Images -->
+			</div><!-- End of Modular Kitchen  -->
+			<div>
+				<h2 class="category-title">Semi-Modular Kitchen</h2>
+				<div class="slideshow-container">
+					<img class="slides2" src="img\semi_1.jpg">
+					<img class="slides2" src="img\semi_2.jpg">
+					<img class="slides2" src="img\semi_3.jpg">
+					<img class="slides2" src="img\semi_4.jpg">
+					<img class="slides2" src="img\semi_5.jpg">
+					<a class="prev" onclick="plusSlides(-1,1)"><i class= "fas fa-chevron-left"></i></a>
+					<a class="next" onclick="plusSlides(1,1)"><i class= "fas fa-chevron-right"></i></a>
+				</div>
+				<div style="text-align: center;">
+					<span class="dot2" onclick="currentSlide(1,1)"></span>
+					<span class="dot2" onclick="currentSlide(2,1)"></span>
+					<span class="dot2" onclick="currentSlide(3,1)"></span>
+					<span class="dot2" onclick="currentSlide(4,1)"></span>
+					<span class="dot2" onclick="currentSlide(5,1)"></span>
+				</div>
+			</div><!-- End of Semi Modular Kitchen  -->
+			<div>
+				<h2 class="category-title">Wardrobes and Beds</h2>
+				<div class="slideshow-container">
+					<img class="slides3" src="img\bed_1.jpg">
+					<img class="slides3" src="img\bed_2.jpg">
+					<img class="slides3" src="img\bed_3.jpg">
+					<img class="slides3" src="img\bed_4.jpg">
+					<img class="slides3" src="img\bed_5.jpg">
+					<a class="prev" onclick="plusSlides(-1,2)"><i class= "fas fa-chevron-left"></i></a>
+					<a class="next" onclick="plusSlides(1,2)"><i class= "fas fa-chevron-right"></i></a>
+				</div>
+				<div style="text-align: center;">
+					<span class="dot3" onclick="currentSlide(1,2)"></span>
+					<span class="dot3" onclick="currentSlide(2,2)"></span>
+					<span class="dot3" onclick="currentSlide(3,2)"></span>
+					<span class="dot3" onclick="currentSlide(4,2)"></span>
+					<span class="dot3" onclick="currentSlide(5,2)"></span>
+				</div>
+			</div><!-- End of Beds -->
+			<div>
+				<h2 class="category-title">Other Furniture</h2>
+				<div class="slideshow-container">
+					<img class="slides4" src="img\furniture_1.jpg">
+					<img class="slides4" src="img\furniture_2.jpg">
+					<img class="slides4" src="img\furniture_3.jpg">
+					<img class="slides4" src="img\furniture_4.jpg">
+					<img class="slides4" src="img\furniture_5.jpg">
+					<a class="prev" onclick="plusSlides(-1,3)"><i class= "fas fa-chevron-left"></i></a>
+					<a class="next" onclick="plusSlides(1,3)"><i class= "fas fa-chevron-right"></i></a>
+				</div>
+				<div style="text-align: center;">
+					<span class="dot4" onclick="currentSlide(1,3)"></span>
+					<span class="dot4" onclick="currentSlide(2,3)"></span>
+					<span class="dot4" onclick="currentSlide(3,3)"></span>
+					<span class="dot4" onclick="currentSlide(4,3)"></span>
+					<span class="dot4" onclick="currentSlide(5,3)"></span>
+				</div>
+			</div><!-- End of Beds -->
+		</div><!-- End of Categories -->
+		<div class="elegant">
+			<h2 class="elegant-one">Get elegant designs manufactured using high quality materials</h2>
+			<p class="elegant-two">With Omega Enterprises, you can plan your house interior as the one in your dream and we will make your dream come true. Whether your kitchen is small or big, we have designs for every sizes.</p>
+			<div class="elegant-three"><button onclick="window.open('about.html','_self')"><a href="about.html" class=" get-contact">Know More</a></button></div>
 		</div>
-		<footer class="footer">
+	<footer class="footer">
 		<div class="footer-content">
 			<div class="footer-left footer-section">
 				<span class="address"><div class="map"><i class="fas fa-map-marker-alt"></i>&nbsp;</div><div >Survey No. 5/3,<br>Ambegaon Khurd<br>Pune, Maharashtra<br></div></span>
