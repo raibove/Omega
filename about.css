@@ -129,11 +129,13 @@
 		font-size: 22px;
 	}
 
-	.about2-image,.slides{
+	.about2-image{
 		height:400px;
 		padding: 15px 100px;
 	}
 	.slides{
+		height:400px;
+		padding: 15px 100px;
 		margin: 0;
 	}
 	.prev,.next{
@@ -141,17 +143,20 @@
 	}
 }
 @media only screen and (min-width:1000px){
-
 	.about-image{
 		height:450px;
-		padding: 2px 10px;
+		padding: 2px 250px;
 		padding-top:60px;
+		background-color: #f39407c4;/*#270d04d4;*/ /*#f39407c4*/
 	}
-
 	.about-title{
 		font-size:35px;
-		padding-bottom: 30px;
+		padding-bottom: 10px;
 
+	}
+	.about-content{
+		top:20px;
+		position: relative;
 	}
 	.about-heading{
 		margin-top: 20px; 
@@ -170,8 +175,15 @@
 		.machine{
 		font-size: 24px;
 	}
-	.about2-image,.slides{
+	.about2-image{
 		height:400px;
-		padding: 15px 250px;
+		padding: 15px 350px;
+	}
+	.slides{
+		height:400px;
+		padding: 15px 380px;
+	}
+	.prev,.next{
+		padding: 10px 320px;
 	}
 }
